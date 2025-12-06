@@ -37,10 +37,11 @@ import main_car from "./main_car.png"
 import banner_car_image from "./banner_car_image.png"
 import user_profile from "./user_profile.png"
 import upload_icon from "./upload_icon.svg"
-import car_image1 from "./car_image1.png"
-import car_image2 from "./car_image2.png"
-import car_image3 from "./car_image3.png"
-import car_image4 from "./car_image4.png"
+import car_image1 from "./car_image1.jpg"
+import car_image2 from "./car_image2.jpg"
+import car_image3 from "./car_image3.jpg"
+import car_image4 from "./car_image4.jpg"
+import car_image5 from "./car_image5.jpg"
 import maincar_car from "./maincar_car.png"
 import car_image_car from "./car_image_car.jpg"
 import mastang from "./mastang.png"
@@ -96,7 +97,8 @@ export const assets = {
     user_profile,
     car_image2,
     car_image3,
-    car_image4
+    car_image4,
+    car_image5
 }
 
 export const menuLinks = [
@@ -124,9 +126,9 @@ export const dummyCarData = [
     {
         "_id": "67ff5bc069c03d4e45f30b77",
         "owner": "67fe3467ed8a8fe17d0ba6e2",
-        "brand": "Mustang",
+        "brand": "Audi",
         "model": "X5",
-        "image": car_image_car,
+        "image": car_image5,
         "year": 2006,
         "category": "pony car",
         "seating_capacity": 4,
@@ -141,9 +143,9 @@ export const dummyCarData = [
     {
         "_id": "67ff6b758f1b3684286a2a65",
         "owner": "67fe3467ed8a8fe17d0ba6e2",
-        "brand": "Mustang",
+        "brand": "BMW",
         "model": "Corolla",
-        "image": car_image_car,
+        "image": car_image4,
         "year": 2021,
         "category": "pony car",
         "seating_capacity": 4,
@@ -160,7 +162,7 @@ export const dummyCarData = [
         "owner": "67fe3467ed8a8fe17d0ba6e2",
         "brand": "Mustang ",
         "model": "Wrangler",
-        "image": car_image_car,
+        "image": car_image3,
         "year": 2023,
         "category": "pony car",
         "seating_capacity": 4,
@@ -177,7 +179,7 @@ export const dummyCarData = [
         "owner": "67fe3467ed8a8fe17d0ba6e2",
         "brand": "Mustang",
         "model": "Neo 6",
-        "image": car_image_car,
+        "image": car_image2,
         "year": 2022,
         "category": "pony car",
         "seating_capacity": 2,
